@@ -1,4 +1,5 @@
  find_and_replace
+ 
  Script for finding particular string from text files and replacing it/them with zeros.
  Can be used to e.g., anonymize content.
  Python version: 3.8.10
