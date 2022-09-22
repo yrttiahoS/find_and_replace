@@ -11,5 +11,17 @@
     Use readlines() method!
  4) List of source files to process is read from extrenal xlsx file using pandas
 
+---
+ 
+ find_and_replace_column
+
  To use script, change input and output folders below.
  Also modify markers and columns read from your look-up-table to suit the purpose.
+
+ Script for replacing ID values (string or number) in xlsx files accoriding to an external map file.
+ Can be used to e.g., anonymize content.
+
+ To apply for your data, check your data format (columns to modify, datatype, encodig of ID in filenames, etc.)
+
+ Python things to use 
+ 1) Pandas for xlsx processing. Load, manipulate, and save
